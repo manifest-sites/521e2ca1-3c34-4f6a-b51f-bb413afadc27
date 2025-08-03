@@ -1,0 +1,38 @@
+{
+  "name": "Dog",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the dog"
+    },
+    "breed": {
+      "type": "string",
+      "description": "Breed of the dog"
+    },
+    "age": {
+      "type": "number",
+      "description": "Age of the dog in years"
+    },
+    "color": {
+      "type": "string",
+      "description": "Primary color of the dog"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description or notes about the dog"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "URL of the dog's photo"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether this dog is marked as favorite"
+    }
+  },
+  "required": [
+    "name",
+    "breed"
+  ]
+}
